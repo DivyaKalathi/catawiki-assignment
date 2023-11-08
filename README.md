@@ -1,4 +1,4 @@
-# catawiki test automation  
+# Catawiki Test Automation  
 
 This is a java project contains the gui automation of search functionality within catawiki web application.
 
