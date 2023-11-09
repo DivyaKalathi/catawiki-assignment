@@ -21,6 +21,11 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
+/**
+ * This class specifies what to do before and after cucumber scenario.
+ * In the before hooks, browser specific webdriver is initialised and in after hooks screenshot for failed scenario is added and the driver is closed 
+ */
+
 @SpringBootTest(classes = CatawikiApplication.class)
 @CucumberContextConfiguration
 public class HooksSteps {
